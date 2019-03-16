@@ -23,6 +23,9 @@
 	}
 	if (mysqli_num_rows($results) > 0)
 	{
+		session_start();
+		$_SESSION['name'] = $_POST["name"];
+		$_SESSION['email'] = $_POST["email"];
 		header("Location: main.php");
 		exit;
 	}
