@@ -22,7 +22,7 @@ print ($pathname);
 	include("Connect_Database.php")
 ?>
 <?php
-/*
+
 $bookInsert = "insert into books values(null, '" .
 $_POST["name"] . 
 "', '" .
@@ -34,12 +34,11 @@ $_POST["description"] .
 "', '" . 
 $currentTime . 
 "', '" . 
-$_POST["description"] . 
-"', '" . 
+$pathname .  
 "')";
 
 $result = mysqli_query($connect, $bookInsert);
-*/
+	header("Location: shopping.php")
 ?>
 
 </body>
