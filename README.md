@@ -16,22 +16,22 @@ Assign yourself the issues assigned to you. (If you don't see the issue assigned
 
 ## Committing and pushing to your branch
 
-* If any changes are made to the files in the repository, they will show in the GitHub Desktop app, make sure that when you </br>
+If any changes are made to the files in the repository, they will show in the GitHub Desktop app, make sure that when you </br>
 are done, in the botton left corner give a brief description of your changes, and click **Commit to (the name of your branch)**</br>
 
-* Then, you have to push your commits to the origin by clicking in **Push origin** in the GitHub Desktop app. </br>
+Then, you have to push your commits to the origin by clicking in **Push origin** in the GitHub Desktop app. </br>
 **(Make sure you are committin and pushing to you personal branch)**</br>
 
 ## Merging to master branch
 
-* After you are done, and you are rady to merge in the master branch you can just do it from the GitHub webpage by going to your</br> branch in the repository and click on **Compare and pull request** give a description of what is that you are merging and then</br>
+After you are done, and you are rady to merge in the master branch you can just do it from the GitHub webpage by going to your</br> branch in the repository and click on **Compare and pull request** give a description of what is that you are merging and then</br>
 the people in charge will revise your code then if accepted will merge to the master, if not you will be told to changer your</br>
 code and the reason why it cannot be merged to the **master branch**.</br>
 
 ### Coding style and naming convention
 
-* We are using Pascal Case naming convention, so make sure to name your files as "FileName.php"</br>
-* Just make sure to code clean and comment your code</br>
+We are using Pascal Case naming convention, so make sure to name your files as "FileName.php"</br>
+Just make sure to code clean and comment your code</br>
 
 ## Built With
 
