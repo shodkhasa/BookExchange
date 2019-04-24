@@ -1,87 +1,40 @@
-# Project Title
+# Book Exchange
 
-One Paragraph of project description goes here
+A CS3337 @ Cal State LA project.
+Book Exchange is a web application that alows students to trade and/or buy books from each other.
 
-## Getting Started
+## Setup 
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+1). Create your personal branch with your name on it to (This is avoid having problems in the **master branch**).
+2). Download the GitHub Desktop, and Visual Studio Code (Optional).
+3). Open GitHub Desktop, sign in -> click **file** -> **Clone a repository** -> Select **BookExchange** -> Save in **C:\Apache24\htdocs\BookExchange** (Or wherever your **htdocs** folder is at).
+4). On **Current Branch** make sure to select yours.
+5). Now thay you have a copy of the files in your personal branch, select **Open in Visual Studio Code** (this will open all files in the repository in VSC) or you can just go to **htdocs** and work on those files.
 
-### Prerequisites
+Assign yourself the issues assigned to you. (If you don't see the issue assigned to you in the Slack chat, create the issue and give a brief description of what is that you are doing)
 
-What things you need to install the software and how to install them
+## Committing and pushing to your branch
 
-```
-Give examples
-```
+* If any changes are made to the files in the repository, they will show in the GitHub Desktop app, make sure that when you are done, in the botton left corner give a brief description of your changes, and click **Commit to (the name of your branch)**
 
-### Installing
+* Then, you have to push your commits to the origin by clicking in **Push origin** in the GitHub Desktop app. **(Make sure you are committin and pushing to you personal branch)**
 
-A step by step series of examples that tell you how to get a development env running
+## Merging to master branch
 
-Say what the step will be
+* After you are done, and you are rady to merge in the master branch you can just do it from the GitHub webpage by going to your branch in the repository and click on **Compare and pull request** give a description of what is that you are merging and then the people in charge will revise your code then if accepted will merge to the master, if not you will be told to changer your code and the reason why it cannot be merged to the **master branch**.
 
-```
-Give the example
-```
+### Coding style and naming convention
 
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
+* We are using Pascal Case naming convention, so make sure to name your files as "FileName.php"
+* Just make sure to code clean and comment your code
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+Update tools used later
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Kevin Crespin** - [KevinCrespin](https://github.com/KevinCrespin)
+Add yourself here
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
