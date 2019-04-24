@@ -1,15 +1,15 @@
 # Book Exchange
 
-A CS3337 @ Cal State LA project.
-Book Exchange is a web application that alows students to trade and/or buy books from each other.
+A CS3337 @ Cal State LA project.</br>
+Book Exchange is a web application that alows students to trade and/or buy books from each other.</br>
 
 ## Setup 
 
-1). Create your personal branch with your name on it to (This is avoid having problems in the **master branch**).
-2). Download the GitHub Desktop, and Visual Studio Code (Optional).
-3). Open GitHub Desktop, sign in -> click **file** -> **Clone a repository** -> Select **BookExchange** -> Save in **C:\Apache24\htdocs\BookExchange** (Or wherever your **htdocs** folder is at).
-4). On **Current Branch** make sure to select yours.
-5). Now thay you have a copy of the files in your personal branch, select **Open in Visual Studio Code** (this will open all files in the repository in VSC) or you can just go to **htdocs** and work on those files.
+1). Create your personal branch with your name on it to (This is avoid having problems in the **master branch**).</br>
+2). Download the GitHub Desktop, and Visual Studio Code (Optional).</br>
+3). Open GitHub Desktop, sign in -> click **file** -> **Clone a repository** -> Select **BookExchange** -> Save in </br> **C:\Apache24\htdocs\BookExchange** (Or wherever your **htdocs** folder is at).</br>
+4). On **Current Branch** make sure to select yours.</br>
+5). Now thay you have a copy of the files in your personal branch, select **Open in Visual Studio Code** (this will open all files in </br> the repository in VSC) or you can just go to **htdocs** and work on those files.</br>
 
 Assign yourself the issues assigned to you. (If you don't see the issue assigned to you in the Slack chat, create the issue and give a brief description of what is that you are doing)
 
