@@ -1,10 +1,10 @@
-drop table is exists users;
+drop table if exists users;
 drop table if exists books;
 drop table if exists forum;
 
-CREATE TABLE 'users' (
-  'name' varchar(50) NOT NULL,
-  'email' varchar(50) NOT NULL
+CREATE TABLE `users` (
+  `name` varchar(50) NOT NULL,
+  `email` varchar(50) NOT NULL
   );
 
 CREATE TABLE `forum` (
@@ -24,7 +24,7 @@ CREATE TABLE `books` (
   `picpath` varchar(100) NULL
 );
 
-INSERT INTO 'users' (name, email) VALUES ('Kevin Crespin', 'kcrespi@calstatela.edu');
-INSERT INTO 'users' (name, email) VALUES ('Jose Rosa', 'jrosa@calstatela.edu');
+INSERT INTO `users` (name, email) VALUES ('Kevin Crespin', 'kcrespi@calstatela.edu');
+INSERT INTO `users` (name, email) VALUES ('Jose Rosa', 'jrosa@calstatela.edu');
 
-INSERT INTO 'forum' (name, email, post) VALUES ('Kevin Crespin', 'kcrespi@calstatela.edu', 'Hello');
+INSERT INTO `forum` (name, email, post) VALUES ('Kevin Crespin', 'kcrespi@calstatela.edu', 'Hello');
