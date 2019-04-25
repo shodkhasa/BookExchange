@@ -6,3 +6,15 @@ CREATE TABLE `forum` (
   `email` varchar(50) NOT NULL,
   `post` varchar(500) NOT NULL
 );
+
+drop table if exists books;
+
+CREATE TABLE `books` (
+  `bookId` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  `name` varchar(100) NULL,
+  `email` varchar(100) NULL,
+  `title` varchar(100) NULL,
+  `description` varchar(500) NULL,
+  `posttime` datetime NULL,
+  `picpath` varchar(100) NULL
+);
