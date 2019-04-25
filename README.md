@@ -16,8 +16,8 @@ the issue and give a brief description of what is that you are doing)</br>
 
 ## Committing and Pushing to your Branch
 
-If any changes are made to the files in the repository, they will show in the GitHub Desktop app, make sure that when you </br>
-are done, in the botton left corner you provide a brief description of your changes, and click **Commit to (the name of your branch)**</br>
+If any changes are made to the files in the repository, they will show in the GitHub Desktop app, make sure that when </br> 
+you are done, in the botton left corner you provide a brief description of your changes, and click **Commit to (the name of your branch)**</br>
 
 Then, you have to push your commits to the origin by clicking in **Push Origin** in the GitHub Desktop app. </br>
 **(make sure you are committing and pushing to you personal branch)**</br>
