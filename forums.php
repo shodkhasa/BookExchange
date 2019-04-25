@@ -64,7 +64,7 @@ while($row = mysqli_fetch_assoc($results))
 User Name
 </td>
 <td>
-<input type="text" name="name" value="<?php print $_GET['name']?>"/>
+<input type="text" name="name" value="<?php print $_SESSION['name']?>"/>
 </td>
 </tr>
 <tr>
@@ -72,7 +72,7 @@ User Name
 Email
 </td>
 <td>
-<input type="text" name= "email" value="<?php print $_GET['email']?>"/>
+<input type="text" name= "email" value="<?php print $_SESSION['email']?>"/>
 </td>
 </tr>
 <tr>

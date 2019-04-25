@@ -11,7 +11,6 @@
 ?>
 <?php
 
-
 $postInsert = "insert into forum values(null, '" .
 $_POST["name"] .
 "', '" .
