@@ -13,6 +13,10 @@
 	<a class="li_css_a" href = "selling.php?<?php print $name_email; ?>">Selling</a>
 </li>
 <li class="li_css">
-	<a class="li_css_a" href = "selling.php?<?php print $name_email; ?>">Profile</a>
+	<a class="li_css_a" href = "profile.php?<?php print $name_email; ?>">Profile</a>
+	
+</li>
+<li class="li_css">
+	<a class="li_css_a" href = "forums.php?<?php print $name_email; ?>">Forums</a>
 </li>
 </ul>
