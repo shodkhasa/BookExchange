@@ -12,7 +12,7 @@
 <?php
 
 
-$postInsert = "insert into forum values('" .
+$postInsert = "insert into forum values(null, '" .
 $_POST["name"] .
 "', '" .
 $_POST["email"] .
