@@ -26,7 +26,11 @@
 		session_start();
 		$_SESSION['name'] = $_POST["name"];
 		$_SESSION['email'] = $_POST["email"];
-		header("Location: main.php");
+		if($_SESSION['name'] == "admin" && $_SESSION['email'] == "admin@admin.com"){
+			header("Location: admin.php");
+		}else{
+			header("Location: main.php");
+		}
 		exit;
 	}
 ?>
