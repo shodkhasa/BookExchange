@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <title>Shopping Page</title>
 </head>
 
@@ -56,7 +57,9 @@ while($row = mysqli_fetch_assoc($results))
 	print "<img src ='";
 	print $row["picpath"] . "' height = 50 width = 50>";
 	print "</td>";
-	
+	print "<td align = 'center'; >";
+    print "<a href=".$row["tocpicpath"]." target=_blank><i class=material-icons>picture_as_pdf</i></a>";
+    print "</td>";
 	
 	/*Print "<td>";
 	Print "<a href='UserDelete.php?";
