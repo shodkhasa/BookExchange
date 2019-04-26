@@ -31,7 +31,7 @@ Email
 </td>
 </tr>
 </form>
-<p>
+<p align="center">
 <a href="/admin.php"> Back to Admin Table</a>
 </p>
 </body>
