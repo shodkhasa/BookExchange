@@ -15,15 +15,15 @@
 			$results = mysqli_query($connect, $selectUsers);
 		?>
 		<nav>
-			<a href = "UserEnroll.php">Go to Enrollment Page</a>
-		</nav>
+			</nav>
 		<?php
 	    	session_start();
 	    	$name_email = 'name=' . $_SESSION['name'] . '&email=' . $_SESSION['email'];
 	    	#print $name_email;
 		?>
         <ul class="ul_css">
-            <a class="li_css_a" style="float:right" href = "logout.php?<?php print $name_email; ?>">Logout</a>
+			<a class="li_css_a" style="float:left" href = "UserEnroll.php">Go to Enrollment Page</a>
+			<a class="li_css_a" style="float:right" href = "logout.php?<?php print $name_email; ?>">Logout</a>
             <a class="li_css_a" style="float:right" href = "mail.php?<?php print $name_email; ?>">Email</a>
         </ul>
 		<table align="center" border="2" width=400>
