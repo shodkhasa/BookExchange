@@ -6,3 +6,7 @@ CREATE TABLE `forum` (
   `email` varchar(50) NOT NULL,
   `post` varchar(500) NOT NULL
 );
+
+ALTER TABLE books
+ADD tocpicpath varchar(255);
+
