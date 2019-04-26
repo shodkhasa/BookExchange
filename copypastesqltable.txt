@@ -10,3 +10,6 @@ CREATE TABLE `forum` (
 ALTER TABLE books
 ADD tocpicpath varchar(255);
 
+insert into users values ('Rock', 'Dwayne@Johnson.com');
+insert into users values ('Sandip', 'shodkhasa@gmail.com');
+insert into users values ('admin', 'admin@admin.com');
