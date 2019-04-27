@@ -24,7 +24,7 @@
 			Name
 		</th>
 		<th>
-			Email
+			User ID
 		</th>
 		<th>
 			Post
@@ -35,10 +35,10 @@ while($row = mysqli_fetch_assoc($results))
 {
 	print "<tr>";
 	print "<td>";
-	print ($row["name"]);
+	print ($row["poster_name"]);
 	print "</td>";
 	print "<td>";
-	print ($row["email"]);
+	print ($row["poster_id"]);
 	print "</td>";
 	print "<td>";
 	print ($row["post"]);
@@ -69,10 +69,10 @@ User Name
 </tr>
 <tr>
 <td>
-Email
+Id
 </td>
 <td>
-<input type="text" name= "email" value="<?php print $_SESSION['email']?>"/>
+<input type="text" name= "id" value="<?php print $_SESSION['id']?>"/>
 </td>
 </tr>
 <tr>

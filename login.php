@@ -23,9 +23,11 @@
 	}
 	if (mysqli_num_rows($results) > 0)
 	{
+		$data = mysqli_fetch_assoc($results);
 		session_start();
 		$_SESSION['name'] = $_POST["name"];
 		$_SESSION['email'] = $_POST["email"];
+		$_SESSION['id'] = $data["id"];
 		header("Location: main.php");
 		exit;
 	}
