@@ -11,7 +11,8 @@ CREATE TABLE users (
     id INT(10) NOT NULL AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(50) NOT NULL,
     email VARCHAR(50) NOT NULL,
-    is_admin BOOLEAN NOT NULL DEFAULT 0
+    is_admin BOOLEAN NOT NULL DEFAULT 0,
+    balance decimal(15, 2) NOT NULL DEFAULT 0
 );
 
 -- Create forum table
