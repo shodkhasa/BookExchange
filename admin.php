@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
+<meta charset="UTF-8">
 <title>Administrator Page</title>
 </head>
 
@@ -10,44 +10,27 @@
 	include("Connect_Database.php");
 ?>
 <?php
-	$selectUsers = "select * from users;";
+	$selectUsers = "SELECT * FROM users;";
 	$results = mysqli_query($connect, $selectUsers);
 ?>
 <nav>
-<a href = "UserEnroll.php">Go to Enrollment Page</a>
+	<a href = "UserEnroll.php">Go to Enrollment Page</a>
 </nav>
-	<table align="center" border="2" width=400>
+<table align="center" border="2" width=400>
 	<tr>
-		<th>
-			Name
-		</th>
-		<th>
-			Email
-		</th>
-		<th>
-			Delete
-		</th>
+		<th>Name</th>
+		<th>Email</th>
+		<th>Delete</th>
 	</tr>
 <?php
-while($row = mysqli_fetch_assoc($results))
-{
-	print "<tr>";
-	print "<td>";
-	print ($row["name"]);
-	print "</td>";
-	print "<td>";
-	print ($row["email"]);
-	print "</td>";
-	Print "<td>";
-	Print "<a href='UserDelete.php?";
-	Print "email=" . $row["email"] . "'>";
-	Print "DELETE";
-	Print "</a>";
-	Print "</td>";
-	print "</tr>";
-}
+	while($row = mysqli_fetch_assoc($results)) {
+		print "<tr>";
+		print "<td>" . ($row["name"]) . "</td>";
+		print "<td>" . ($row["email"]). "</td>";
+		print "<td><a href='UserDelete.php?email=" . $row["email"] . "'>DELETE</a></td>";
+		print "</tr>";
+	}
 ?>
-
 </table>
 </body>
 </html>
