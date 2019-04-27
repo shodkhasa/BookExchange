@@ -11,7 +11,8 @@ CREATE TABLE users (
     id INT(10) NOT NULL AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(50) NOT NULL,
     email VARCHAR(50) NOT NULL,
-    is_admin BOOLEAN NOT NULL DEFAULT 0
+    is_admin BOOLEAN NOT NULL DEFAULT 0,
+    balance DECIMAL(15, 2) NOT NULL DEFAULT 0
 );
 
 -- Create forum table
@@ -60,7 +61,7 @@ INSERT INTO users (name, email) VALUES ('John Jackson', 'jjackson@calstatela.edu
 
 INSERT INTO forum (poster_id, poster_name, post, post_time) VALUES (1, 'Kevin Crespin', 'Hello, everyone! I was looking to sell my ''Java Introduction''. I made it available in the BookExchange market.', '2019-03-10');
 INSERT INTO forum (poster_id, poster_name, post, post_time) VALUES (2, 'Jose Rosa', 'I''m looking to donate my University Physics book, if interested check the BookExchange market', '2019-03-10');
-INSERT INTO forum (poster_id, poster_name, post, post_time) VALUES (4, 'John Jackson', 'Goodafternoon, I need this book <a href="https:///www.amazon.com//History-Empires-Rise-Fall-Greatest//dp//1547021241//ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1556238372&sr=8-2-spons">History of Empires<//a> for tomorrow, HELP!', '2019-03-10');
+INSERT INTO forum (poster_id, poster_name, post, post_time) VALUES (4, 'John Jackson', 'Goodafternoon, I need this book <a href="https:///www.amazon.com//History-Empires-Rise-Fall-Greatest//dp//1547021241//ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1556238372&sr=8-2-spons">History of Empires</a> for tomorrow, HELP!', '2019-03-10');
 INSERT INTO forum (poster_id, poster_name, post, post_time) VALUES (3, 'Manuel Herrera', 'Nice website!', '2019-03-10');
 
 -- Populate books table
